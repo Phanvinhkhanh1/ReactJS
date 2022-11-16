@@ -6,12 +6,14 @@ import Message from './component/Message';
 import Counter from './component/Counter';
 import FunctionClick from './component/FunctionClick';
 import ClassClick from './component/ClassClick';
+import EventBinding from './component/EventBinding';
 
 function App() {
   return (
     <div className="App">
-      <FunctionClick />
-      <ClassClick />
+      <EventBinding />
+      {/* <FunctionClick />
+      <ClassClick /> */}
       {/* <Counter />
       <Greet name="Phuong" job="Accountant" >
         <p>This is my older sister</p>
