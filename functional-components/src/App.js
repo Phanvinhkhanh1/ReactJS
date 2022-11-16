@@ -9,15 +9,15 @@ function App() {
   return (
     <div className="App">
       <Counter />
-      {/* <Greet name="Phuong" job="Accountant" >
+      <Greet name="Phuong" job="Accountant" >
         <p>This is my older sister</p>
       </Greet>
       <Greet name="Tung" job="Doctor" />
       <Greet name="Khanh" job="IT Engineer" />
       <Welcome name="Phuong" job="Accountant"></Welcome>
       <Welcome name="Tung" job="Doctor"></Welcome>
-      <Welcome name="Khanh" job="IT Engineer"></Welcome> */}
-      {/* <Message /> */}
+      <Welcome name="Khanh" job="IT Engineer"></Welcome>
+      <Message />
     </div>
   );
 }
